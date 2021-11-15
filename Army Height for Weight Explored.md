@@ -58,7 +58,7 @@ extension AutoIdentifiable {
 }
 ```
 ## Gender enum
-Here, we make the enumeration `CaseIterable` (which would be used in an instance where the enum has many cases that you want to iterate through in an ordered manner.).  In the event that your enum has many cases and you want to use SwiftUI’s `ForEach`  with automatic ID conformance, you will need to make your object  `Hashable`. See [Apple Hashable Documentation](https://developer.apple.com/documentation/swift/hashable) and [Apple ForEach Documentation](https://developer.apple.com/documentation/swiftui/foreach/)for more information.
+Here, we make the enumeration `CaseIterable` (which would be used in an instance where the enum has many cases that you want to iterate through in an ordered manner.).  In the event that your enum has many cases and you want to use SwiftUI’s `ForEach`  with automatic ID conformance, you will need to make your object  `Hashable`. See [Apple Hashable Documentation](https://developer.apple.com/documentation/swift/hashable) and [Apple ForEach Documentation](https://developer.apple.com/documentation/swiftui/foreach/) for more information.
 ```swift
 enum Gender: CaseIterable, Hashable, AutoIdentifiable {
     case male, female
