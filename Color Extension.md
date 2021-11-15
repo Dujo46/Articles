@@ -6,7 +6,8 @@ extension Color {
     init(_ red: Double, _ green: Double, _ blue: Double) {
         self.init(red: red / 255,
                   green: green / 255,
-                  blue: blue / 255, opacity: 1.0)
+                  blue: blue / 255, 
+                  opacity: 1.0)
     }
 }
 ```
