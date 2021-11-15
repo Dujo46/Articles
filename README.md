@@ -6,6 +6,7 @@
 
 ## In Progress
 - Army Body Fat Assessment Explored
+  - DA Form 5500 / DA Form 5501
 - Army ACFT Calculator
 - Army APFT Calculator
-- Filling PDF Documents with `PDFKit` and the SwiftUI `@App` structure : Army DA Form 2062
+- Filling PDF Documents with `PDFKit` and the SwiftUI `@App` structure: DA Form 2062 / DA Form 4856
