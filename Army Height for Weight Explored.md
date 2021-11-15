@@ -124,7 +124,7 @@ enum Compliance<T: Numeric> {
 }
 ```
 
-# The Calculating Compliance
+# Calculating Compliance
 ```swift
 static func calculate(gender: Gender, age: Int, height: Int, weight: Int) -> Compliance<Int> {
     // Height within screening table bounds
