@@ -1,4 +1,5 @@
-**Purpose**: Easily instantiate a SwiftUI Color using RGB values.
+# Purpose
+Easily instantiate a SwiftUI Color using RGB values.
 
 ```swift
 // MARK: - Easy init
