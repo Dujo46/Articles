@@ -115,7 +115,7 @@ enum Compliance<T: Numeric> {
             // Description for those who do not meet the minimum age requirement
             // as laid out in the regulation
         case .doesNotMeetMinimumAge: return "Does not meet minimum age requirement."
-            // Description for those who do not have easiliy identified standrads
+            // Description for those who do not have easily identified standards
         case .noStandardAvailable: return "No standard data available."
             // Example, those who are 80+ in. in height
         case .heightNotWithinBounds: return "Height must be between 58in. and 80in."
