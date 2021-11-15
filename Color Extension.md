@@ -2,7 +2,6 @@
 Easily instantiate a SwiftUI Color using RGB values.
 
 ```swift
-// MARK: - Easy init
 extension Color {
     init(_ red: Double, _ green: Double, _ blue: Double) {
         self.init(red: red / 255,
